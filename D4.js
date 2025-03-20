@@ -60,7 +60,14 @@ console.log(boundary(21));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+function epify(string) {
+  let result = "Epicode" + string;
+  if (string.startsWith("Epicode") === true) {
+    result = string;
+  }
+  return result;
+}
+console.log(epify("Epicode"));
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
